@@ -1,0 +1,1054 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contener{
+    max-width: 90%;
+    margin: 0 auto;
+    }
+
+header {
+        height: 100vh;
+        padding: 35px 0 85px;
+        background-image: radial-gradient(
+            118.67% 101.66% at 141.47% 78.12%,
+            #ffffff 0%,
+            rgba(255, 255, 255, 0) 100%), url(./imges/Rectangle\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 68.8%;
+    }
+
+.contener{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.imges img {
+    height: 100vh;
+    max-width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(118.67% 101.66% at 141.47% 78.12%, #fff 0%, rgba(255, 255, 255, 0.4) 100%), url(./imges/Rectangle\ 1.png);
+    background-position: 67.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 35px 0 0 0 ;
+    align-items: center;
+}
+
+.navbar-rigth ul li{
+    display: none;
+}
+
+.nam{
+    padding: 10px 20px;
+    background-color: #F84646;
+    border-radius: 5px;
+    border: none;
+}
+
+.nam a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+}
+
+.header-list-one{
+    position: relative;
+    margin-top: 62px;
+    max-width: 335px;
+}
+
+.header-list-one h1{
+    max-width: 335px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 57.5px;
+    margin: 0 auto;
+}
+
+.header-list-one h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+}
+
+.input{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Mail{
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 20px;
+    border-radius: 8px;
+}
+
+.Kayıt{
+    background-color: #F84646;
+    text-align: center;
+    width: 91px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 236px;
+    position: relative;
+    border: none;
+}
+
+.Kayıt a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    margin-top: 60px;
+}
+
+.period{
+    padding: 0 20px 0 20px;
+}
+
+.Quality h2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.Quality h4{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    max-width: 334px;
+    margin: 0 auto;
+}
+
+.document{
+    text-align: center;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+}
+
+.one img{
+    margin-bottom: 20px;
+}
+
+.one h3{
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+
+.one h5{
+    font-family: 'Manrope';
+    font-style: normal;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    max-width: 298px;
+}
+
+
+
+.tap img{
+    position: absolute;
+}
+
+.list-Quality{
+    position: relative;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.quality-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.net img{
+    position: absolute;
+}
+
+.bagrad-red{
+    position: relative;
+}
+
+
+
+.icon{
+    display: grid;
+    justify-content: center;
+    row-gap: 30px;
+
+}
+
+.test{
+    margin-top: 80px;
+    background-image: url(./imges/2.png);
+    text-align: center;
+    padding: 60px 20px 80px 20px;
+}
+
+.bagrad-red h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 47px;
+    color: #fff;
+}
+.bagrad-red h3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.icon p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.ocon img{
+   margin-top: 30px;
+   transform: rotate(90deg);
+}
+
+.Management{
+    margin-top: 80px;
+    padding: 0 20px 0 20px;
+}
+
+.quality-text{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nem{
+    text-align: center;
+    max-width: 336px;
+}
+
+.nem h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.nem h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.button{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: #fff;
+}
+
+.button button a{
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F84646;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding: 12px 147px 12px 147px;
+    margin: 0 auto;
+}
+
+
+.list-Quality{
+    margin: 0 auto;
+    max-width: 335px;
+    padding-bottom: 80px;
+}
+
+.top:nth-child(2){
+    display: none;
+}
+
+.logo{
+    background-color: #F4F5F7;
+}
+
+.Referan{
+    padding: 60px 0 60px 0;
+    text-align: center;
+}
+
+.Referan h2{
+    font-size: 48px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.Referan h3{
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+
+.girid{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(6,auto);
+    gap: 24px;
+    align-items: center;
+    max-width: 946px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.burusan,
+.istabul,
+.bookmyshow,
+.akbank,
+.akcansa,
+.tumunu,
+.aktas,
+.ola,
+.amazon{
+    background-color: #fff;
+    align-items: center;
+    margin: 0 auto;
+    padding: 33px 35px;
+    border-radius: 16px;
+}
+
+.To_us{
+    margin-top: 90px;
+    margin-bottom: 82px;
+}
+
+.contact{
+    max-width: 335px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact img{
+    margin-bottom: 20px;
+}
+
+.contact h2{
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-family: Manrope;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.contact h4{
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-button{
+    border: none;
+    border-radius: 8px;
+    background-color: #F84646;
+    padding: 25px 40px;
+    flex-shrink: 0;
+}
+
+.contact-button a{
+    color: #FFF;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+footer{
+    padding: 80px 0 77px 20px;
+    background-color: #F8464A;
+}
+
+.orta{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 49px;
+}
+
+.solution h2{
+    margin-bottom: 24px;
+}
+.Products h2{
+    margin-bottom: 24px;
+}
+.Institutional h2{
+    margin-bottom: 24px;
+}
+.Communication h2{
+    margin-bottom: 24px;
+}
+
+.solution ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 24px;
+}
+.Products ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 24px;
+}
+.Institutional ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 24px;
+}
+.Communication ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 24px;
+}
+
+.solution ul li a{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 32px;
+    list-style: none;
+    color: #E6E6E6;
+}
+.Products ul li a{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 32px;
+    list-style: none;
+    color: #E6E6E6;
+}
+.Institutional ul li a{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 32px;
+    list-style: none;
+    color: #E6E6E6;
+}
+.Communication ul li a{
+    list-style: none;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 32px;
+    color: #E6E6E6;
+}
+
+.solution h2{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+.Products h2{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+.Institutional h2{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+.Communication h2{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+
+.footer-top{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 63px;
+}
+
+.footer-top p{
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footer-top h2{
+    display: flex;
+    column-gap: 16px;
+}
+
+.footer-top h2 a{
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.navbar-left i{
+    font-size: 30px;
+    
+}
+
+@media screen and (min-width:600px) {
+    header {
+        height: 100vh;
+        padding: 35px 0 85px;
+        background-image: url(./imges/Rectangle\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar-rigth ul li{
+        display: inline;
+    }
+    
+    .navbar-rigth ul{
+        max-width: 1000px;
+        display: flex;
+        column-gap: 40px;
+        align-items: center;
+    }
+
+    .navbar-rigth ul li a{
+        color: #000;
+        font-size: 14px;
+        font-family: Manrope;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .header-list-one{
+        max-width: 665px;
+    }
+
+    .header-list-one h1{
+        color: #000;
+        font-size: 56px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 73.5px;
+        text-align: start;
+        max-width: 665px;
+        margin-bottom: 20px;
+    }
+
+    .header-list-one h3{
+        max-width: 565px;
+        color: #000;
+        font-size: 16px;
+        font-family: Manrope;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    #Mail{
+        width: 422px;
+    }
+
+    .Kayıt{
+        margin-left: 325px;
+    }
+
+    .period{
+        padding-bottom: 100px;
+    }
+
+    .Quality{
+        margin-top: 120px;
+    }
+
+    .Quality h2{
+        color: #000;
+        text-align: center;
+        font-size: 36px;
+        font-family: Manrope;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .Quality h4{
+        max-width: 852px;
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-family: Manrope;
+        line-height: 39.5px;
+        letter-spacing: 0.2px;
+        margin-bottom: 91px;
+    }
+
+    .document{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 730px;
+        column-gap: 116px;
+        margin: 0 auto;
+        row-gap: 93px;
+    }
+
+    .one h3{
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-family: Manrope;
+        font-weight: 800;
+    }
+
+    .one h5{
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-family: Manrope;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .one:nth-child(3){
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .one:nth-child(6){
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .test{
+        padding: 80px 0 80px 0;
+    }
+
+    .bagrad-red h2{
+        font-size: 48px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 64px;
+        margin-bottom: 20px;
+    }
+
+    .bagrad-red h3{
+        font-size: 18px;
+        font-family: Manrope;
+        line-height: 32px;
+    }
+
+    .icon{
+        max-width: 1024px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .icon-one{
+        display: flex;
+        align-items: center;
+        text-align: start;
+        justify-content: space-between;
+        column-gap: 49px;
+    }
+
+    .ocon img{
+        transform: rotate(0deg);
+    }
+
+    .Management{
+        margin-top: 100px;
+        margin-bottom: 160px;
+    }
+
+    .list-Quality{
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 0 60px 0 60px;
+        display: grid;
+        row-gap: 120px;
+    }
+
+    .top{
+        display: flex;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0 auto;
+        column-gap: 56px;
+    }
+
+    .top:nth-child(3){
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .top:nth-child(1){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .nem{
+        max-width: 428px;
+    }
+
+    .nem h2{
+        font-size: 58px;
+        font-family: Manrope;
+        font-weight: 700;
+        line-height: 59.5px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+
+    .nem h6{
+        font-size: 14px;
+        font-family: Manrope;
+        line-height: 28.5px;
+        color: #808080;
+        text-align: start;
+    }
+
+    .button button a{
+        padding: 12px 50px;
+    }
+
+    .logo{
+       padding: 0 38px 73px 38px;
+    }
+
+    .Referan h2{
+        text-align: center;
+        font-size: 48px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 64px;
+        color: #18191F;
+        margin-bottom: 5px;
+    }
+
+    .Referan h3{
+        text-align: center;
+        font-size: 18px;
+        font-family: Manrope;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 48px;
+    }
+
+    .girid{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        grid-template-rows: repeat(6,auto);
+        gap: 24px;
+    }
+
+    .akbank{
+        grid-row: 1/3;
+        grid-column: 3;
+    }
+
+    .akcansa{
+        grid-row: 3/5;
+        grid-column: 3;
+    }
+
+    .tumunu{
+        grid-row: 5/7;
+        grid-column: 3;
+    }
+
+    .istabul{
+        grid-row: 2/4;
+        grid-column: 2;
+    }
+
+    .bookmyshow{
+        grid-row: 4/6;
+        grid-column: 2;
+    }
+
+    .burusan{
+        grid-row: 3/5;
+        grid-column: 1;
+    }
+
+    .aktas{
+        grid-row: 2/4;
+        grid-column: 4;
+    }
+
+    .ola{
+        grid-row: 4/6;
+        grid-column: 4;
+    }
+
+    .amazon{
+        grid-row: 3/5;
+        grid-column: 5;
+    }
+
+    .To_us{
+        padding: 166px 0 160px 0;
+    }
+
+    .contact{
+        max-width: 645px;
+    }
+
+    .contact h2{
+        color: #000;
+        text-align: center;
+        font-size: 48px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .contact h4{
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-family: Manrope;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    .contact-button a{
+        padding: 25px 40px;
+        color: #FFF;
+        font-size: 24px;
+        font-family: Manrope;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    footer{
+        padding: 80px 0 70px 61px;
+    }
+
+    .orta{
+        display: flex;
+        column-gap: 49px;
+        row-gap: 24px;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .solution h2{
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .Products h2{
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .Institutional h2{
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .Communication h2{
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .Communication ul li a{
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 32px;
+    }
+
+    .Institutional ul li a{
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 32px;
+    }
+
+    .Products ul li a{
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 32px;
+    }
+
+    .solution ul li a{
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 32px;
+    }
+
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .footer-top p{
+        font-size: 16px;
+        font-family: Inter;
+        line-height: 32px;
+    }
+
+    .footer-top h2 a img{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header-list-one{
+        max-width: 665px;
+    }
+
+    .navbar-left i{
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .header-list-one h1{
+        color: #000;
+        font-size: 64px;
+        font-family: Manrope;
+        font-weight: 800;
+        line-height: 82px;
+    }
+
+    .header-list-one h3{
+        color: #000;
+        font-size: 20px;
+        font-family: Manrope;
+        line-height: 36px;
+        letter-spacing: 0.2px;
+    }
+
+    #Mail{
+        width: 502px;
+    }
+
+    .Kayıt{
+        margin-left: 400px;
+    }
+
+    .document{
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2,auto);
+    }
+
+    .one:nth-child(6){
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .top:nth-child(3){
+        display: none;
+    }
+
+    .top:nth-child(2){
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer-top p{
+        margin-top: 60px;
+    }
+
+    .footer-top h2{
+        margin-top: 60px;
+    }
+
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1033px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contener{
+        padding: 60px;
+    }
+}
