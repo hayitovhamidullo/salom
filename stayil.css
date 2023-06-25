@@ -51,6 +51,10 @@ header {
     background-position: 67.5%;
 }
 
+.img img{
+    height: 404px;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -61,6 +65,10 @@ nav{
 
 .navbar-rigth ul li{
     display: none;
+}
+
+.button button{
+    border: none;
 }
 
 .nam{
@@ -567,6 +575,19 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .navbar-left {
+        display: none;
+    }
+
+    .navbar-rigth ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header{
+        padding: 0 64px 0 64px;
+    }
     .navbar-rigth ul li{
         display: inline;
     }
@@ -713,8 +734,8 @@ footer{
         display: flex;
         align-items: center;
         text-align: start;
-        justify-content: space-between;
-        column-gap: 49px;
+        justify-content: inherit;
+        width: 300px;
     }
 
     .ocon img{
@@ -974,9 +995,24 @@ footer{
     }
 }
 
+@media screen and (max-width:700px){
+    .navbar-rigth ul li{
+        display: none;
+    }
+
+    .navbar-left{
+        display: inline-block;
+    }
+
+}
+
 @media screen and (min-width:1024px) {
     .header-list-one{
         max-width: 665px;
+    }
+
+    .navbar-left{
+        display: none;
     }
 
     .navbar-left i{
@@ -984,6 +1020,11 @@ footer{
         font-size: 40px;
     }
 
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
     .header-list-one h1{
         color: #000;
         font-size: 64px;
@@ -1002,6 +1043,11 @@ footer{
 
     #Mail{
         width: 502px;
+    }
+
+    .navbar-rigth{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .Kayıt{
